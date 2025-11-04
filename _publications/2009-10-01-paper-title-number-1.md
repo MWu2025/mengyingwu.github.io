@@ -2,7 +2,7 @@
 title: "Dynamic responses of SO2 pollution to China’s environmental inspections"
 collection: publications
 category: manuscripts
-authors: "with Valerie Karplus"
+authors: "with Valerie J. Karplus"
 permalink: /research/environmentalcrackdowns
 excerpt: 'Abstract: We evaluate the effect of rotating inspections carried out by China’s central government in 2016 to 2017 in response to the country’s air pollution crisis on the environmental performance of targeted cities and coal power plants. Using a staggered difference-in-differences (DID) design,  & we find that during one-month inspections concentrations of sulfur dioxide (SO2) at coal power plants in targeted cities are on average lower by 25 to 52% compared to not-yet-inspected cities but revert by 54 to 62\% on average once scrutiny ends. Following inspections, SO2 pollution increases more quickly at state-owned plants accountable to the central government, compared to state-owned plants accountable to the local (city or below) government. Our results suggest that for most plants SO2 concentration changes during inspections may have been due primarily to the operation of end-of-pipe SO2 removal devices, while following inspections local state-owned plants may have reduced output.'
 date: 2023-04-17
