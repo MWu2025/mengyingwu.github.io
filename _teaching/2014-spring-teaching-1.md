@@ -1,20 +1,24 @@
 ---
-title: "Teaching experience 1"
+title: "[17.309/IDS.412 Science, Technology, and Public Policy](https://student.mit.edu/catalog/search.cgi?search=17.309&style=verbatim)"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Department of Political Science and Institute for Data, Systems and Society, Massachusetts Institute of Technology"
+level: "Jointly offered for graduate and undergraduate students"
+teaching_role: "Teaching Assistant for Professor Noelle Selin and Professor Kenneth A. Oye, Spring 2021 and Spring 2020"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+In weekly recitation sections of 10–15 students, I combined economic theory
+with practical policy debates and emphasized connecting theoretical models to measurable, empirical
+outcomes—skills essential for studying and teaching economics. I also played a key role
+in designing grading rubrics, evaluating assignments, and mentoring students through research
+projects, where I emphasized clear problem formulation, evidence-based argumentation, and the
+application of quantitative analysis.
 
-Heading 1
-======
+## <span style="color: #A51C30;">Student Evaluations</span>
 
-Heading 2
-======
+Below is a selection of unedited student reviews. Full teaching evaluations are available [<span style="color: #A51C30; text-decoration-color: #A51C30;">here</span>](https://drive.google.com/file/d/1RN_za6dZvdh5mK6fwtTuip3-JPSs9rma/view?usp=sharing).
 
-Heading 3
-======
+• <span style="font-size: 0.9em;">*"Mengying Wu was by far the best TA I've ever had in the entire 32 college courses I've taken across three universities (Columbia University, Hunter, and MIT). She always encouraged participation, thoughtfully answered students' questions, showed clear enthusiasm for the material, and actively engaged our recitation section. She encouraged us to think deeply about the material and was a truly outstanding TA."*</span>
+
+• <span style="font-size: 0.9em;">*"Mandy (my TA) was very helpful in answering any questions I had and leading informative recitations."*</span>
+
+• <span style="font-size: 0.9em;">*"Mandy's recitations were the honest, open-minded, and judgment-free zone to explore the confusing material of this class, and I deeply appreciated that. In particular, it really seemed like she sympathized with our moments of confusion when it came to certain topics, which helped us to see the material for what it was: inherently abstract at times."*</span>
