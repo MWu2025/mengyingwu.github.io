@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /
 author_profile: true
 redirect_from: 
@@ -9,6 +10,9 @@ redirect_from:
 <style>
 .page__content a { color: #A51C30 !important; text-decoration: none !important; }
 .page__content a:hover { color: #A51C30 !important; text-decoration: underline !important; }
+.page__content { margin-left: 0 !important; padding-left: 0 !important; }
+#main { padding-left: 0.5em !important; }
+.page { margin-left: 0 !important; }
 </style>
 
 I am a Postdoctoral Fellow at [the Salata Institute for Climate and Sustainability](https://salatainstitute.harvard.edu/) at Harvard University, jointly appointed to the [Environmental and Natural Resource Program](https://www.belfercenter.org/programs/environment-and-natural-resources) at the Harvard Kennedy School's Belfer Center for Science and International Affairs. My research focuses on environmental and agricultural economics, particularly evaluating the effectiveness of existing market-based and regulatory approaches for addressing climate change and environmental pollution across diverse institutional contexts, with the goal of informing future policy design.
