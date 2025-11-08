@@ -12,7 +12,7 @@ author_profile: true
 .archive__item-excerpt {
   margin-top: 5px !important;
   margin-bottom: 0.5em !important;
-  font-size: 0.85em !important;
+  font-size: 1em !important;
 }
 .archive__item-authors {
   margin-bottom: 2px !important;
@@ -52,6 +52,24 @@ hr {
 
 {% include base_path %}
 
+<h2 style="font-size: 1.25em; margin-bottom: 0.2em; margin-top: 1.5em;">Job Market Paper</h2><hr />
+<div style="margin-top: 1.5em;"></div>
+<div class="archive__item">
+  <div class="archive__item-title" style="font-size: 1.25em; font-weight: 600;">
+    <a href="https://drive.google.com/file/d/10jmNvZIqYK1-2f9sNp-EuN4edPeVh7Sp/view?usp=drive_link" target="_blank">Policy Options to Achieve US Sustainable Aviation Fuel Targets</a>
+  </div>
+  <div style="height: 0.5em;"></div>
+  <div class="archive__item-authors" style="font-size: 1em; margin-bottom: 2px;">with Kristen McCormack, William A. Scott, Aaron Smith, Jingran Zhang, and James H. Stock</div>
+  <div class="archive__item-featured" style="font-size: 1em; margin-top: 2px; margin-bottom: 2px;">Featured in <a href="https://www.eenews.net/articles/sustainable-aviation-fuel-offers-lifeline-to-ethanol-researchers-say/">E&E News</a>, <a href="https://www.rff.org/news/media-highlights/ee-news-sustainable-aviation-fuel-offers-lifeline-to-ethanol-researchers-say/">RFF</a>, and <a href="https://www.belfercenter.org/research-analysis/policy-options-achieve-us-sustainable-aviation-fuel-targets">Belfer Center</a></div>
+<p>
+  <strong>Lead author:</strong> I took charge of designing the model, performing the empirical work and coding, and handling data acquisition and analysis. I also authored the bulk of the manuscript and coordinated the collaborative multi-institutional team. While the project was originally started by James H. Stock, this work forms the main intellectual product of my postdoc, funded by the Salata Institute and the Environment and Natural Resources Program.
+</p>
+  <div style="height: 0.5em;"></div>
+  <div class="archive__item-excerpt" style="font-size: 1em; margin-top: 5px; margin-bottom: 0.5em;">
+    Abstract: Decarbonizing aviation in the short term will likely entail replacing large quantities of petroleum jet fuel with sustainable aviation fuels (SAFs), which are predominantly biofuels. In the United States, biofuels are currently used as substitutes for gasoline and diesel in road transportation and are supported by a complex set of federal and state policies including the Renewable Fuel Standard (RFS), state low carbon fuel standards, and state and federal tax credits. Policies promoting SAF therefore interact with surface transport biofuel policies. In this paper, we use a new detailed partial equilibrium model of road and air transportation fuel markets to compare various policy options designed to achieve a target of 3 billion gallons of SAF by 2030. Our results suggest that the target is attainable with current technology but not with current policy. Several potential federal policies, including modifications to the existing RFS, a federal SAF tax credit, or a clean aviation standard could meet the 3 billion gallon target with similar emissions reductions and costs but different incidence. The lowest cost policy we study entails replacing all current biofuels policies with a modest carbon tax on fossil transportation fuels paired with a SAF tax credit.
+  </div>
+</div>
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -76,6 +94,16 @@ hr {
       {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
+    {% for post in site.jobmarketpaper reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
@@ -84,7 +112,11 @@ hr {
   {% for post in site.workingpapers reversed %}
     {% include archive-single.html %}
   {% endfor %}
+  {% for post in site.jobmarketpaper reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
 {% endif %}
+
 
 
 
